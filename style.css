@@ -6,34 +6,32 @@
   color: #fff;
   background-color: #16161B;
 }
+#body{
+  background-color: #16161B;
+}
 
 .innerbody {
   width: 80%;
   margin: auto;
-
 }
 
 .intro {
   color: aliceblue;
-  height: 500px;
+  height: 550px;
   width: 100%;
-  margin: 70px 0px;
-}
-
-.introtext {
-  width: 75%;
-  margin: 200px 150px;
-  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 .introtext h2 {
-  padding: 0px 0px 0px 200px;
-  margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
-
 }
 
 .introtext h1 {
@@ -43,8 +41,6 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 10px;
-  display: inline-block;
-  position: relative;
 }
 
 .aboutwrapper {
@@ -405,4 +401,8 @@ font-size:15px;
 letter-spacing: 1px;
 color: rgba(255, 255, 255, 0.6);
 margin-bottom: 20px;
+}
+.navbar-toggler{
+  outline: none;
+  border: none;
 }
